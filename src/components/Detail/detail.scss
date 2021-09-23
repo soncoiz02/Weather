@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.detail {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: flex-end;
+  .main {
+    display: flex;
+    color: white;
+    .temp {
+      font-size: 100px;
+      font-family: "Lobster", cursive;
+      height: 100px;
+    }
+    .degree {
+      font-size: 50px;
+      margin-left: 5px;
+    }
+  }
+  .other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .weather {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .dsc {
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    .wind-speed {
+      display: flex;
+      align-items: center;
+      gap: 0 5px;
+      margin-top: 2px;
+    }
+  }
+}
